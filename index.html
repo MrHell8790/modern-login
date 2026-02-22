@@ -4,38 +4,58 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
-    <title>Modern Login</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <title>𝐌𝐫𝐇𝐞𝐥𝐥_𝐆𝐢𝐭𝐇𝐮𝐛-Modern Login</title>
   </head>
   <body>
+    <!-- <form action="#" method="post" autocomplete="on"></form> -->
     <h1>Sing Up form</h1>
-    <div id="flex-box">
-      <div id="flex-box-A">
-        <h3>Hello, friend</h3>
-        <input type="text" name="Name" id="Name" placeholder="Name" />
-        <input type="email" name="Email" id="Email" placeholder="E-mail" />
+    <div class="flex-box">
+      <div class="flex-box-A">
+        <h3>Hello, Friend, WelCome</h3>
+        <!-- <hr> -->
+        <input
+          type="text"
+          name="Name"
+          id="Name"
+          placeholder="Name"
+          min="5"
+          autofocus
+        />
+        <input
+          type="email"
+          name="Email"
+          id="Email"
+          placeholder="Email"
+          min="12"
+        />
         <input
           type="password"
           name="Password"
           id="Password"
-          placeholder="Password"
+          placeholder="PassWord"
+          min="7"
         />
         <p class="p">
           <input type="checkbox" name="checkbox" id="checkbox" />
-          I've reed and aggre to <a href="#">Terms & </a>
-          <a href="#"> Conditions</a>
+          I have Read and Accept the
+          <a href="#">Terms & </a>
+          <a href="#">Conditions</a>
+          <br />
+          for Logging in and Creating an Account.
         </p>
-        <a href="#">
-          <input type="button" value="CREATE ACCOUNT" id="button" />
-        </a>
-        <p class="p">Already have an account? <a href="#">Sign in</a></p>
+        <input type="submit" value="Login to the Account" id="button" />
+        <p class="p" id="p">
+          Do you want to Create an Account ?
+          <a href="#">Create a Free Account</a>
+        </p>
       </div>
-      <div id="flex-box-B">
-        <h2>Glad to see You!</h2>
+      <div class="flex-box-B">
+        <h2>Practice for the future</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
       </div>
     </div>
   </body>
 </html>
 
-<!-- https://mrhell8790.github.io/modern-login/ -->
+<!-- https://MrHell8790.github.io/modern-login/ -->
